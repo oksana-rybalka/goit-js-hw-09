@@ -84,8 +84,10 @@ width='360'/>
 </a>
 </li>`);
 const galleryItemString = arrayGalleryItem.join('');
+gallery.insertAdjacentHTML("beforeend", galleryItemString);
 
 const simpleLightbox = new SimpleLightbox('.gallery a', {
     captionsData: 'alt',
     captionDelay: 250,
+    doubleTapZoom:2
   });
