@@ -79,11 +79,11 @@ const arrayGalleryItem = images.map(({ preview, original, description }) =>
 <img
 class="gallery-image"
 src="${preview}" 
-alt="${description}"/>
+alt="${description}"
+width='360'/>
 </a>
 </li>`);
 const galleryItemString = arrayGalleryItem.join('');
-gallery.insertAdjacentHTML("beforeend", galleryItemString);
 
 const simpleLightbox = new SimpleLightbox('.gallery a', {
     captionsData: 'alt',

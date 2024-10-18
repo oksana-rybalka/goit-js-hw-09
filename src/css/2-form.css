@@ -1,0 +1,53 @@
+.feedback-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0em;
+    gap: 8px;
+    padding: 24px;
+    width: 408px;
+    height: 296px;
+    background: #fff;
+    border: #2e2f42;
+}
+.input {
+border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+}
+.textarea {
+    border: 1px solid #808080;
+        border-radius: 4px;
+        width: 360px;
+        height: 80px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 86px;
+    height: 40px;
+    background: #4e75ff;
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+
+}
+
+button:hover {
+    background: lawngreen;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+}
