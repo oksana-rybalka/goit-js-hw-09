@@ -1,31 +1,15 @@
 .feedback-form {
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 0em;
-    gap: 8px;
-    padding: 24px;
-    width: 408px;
-    height: 296px;
-    background: #fff;
-    border: #2e2f42;
+        flex-direction: column;
+        margin-top: 0em;
+        width: 408px;
+        gap: 8px;
+        padding: 24px;
 }
-.input {
-border: 1px solid #808080;
-    border-radius: 4px;
-    width: 360px;
-    height: 40px;
-}
-.textarea {
-    border: 1px solid #808080;
-        border-radius: 4px;
-        width: 360px;
-        height: 80px;
-}
-
 button {
     border-radius: 8px;
     padding: 8px 16px;
-    width: 86px;
+    width: 95px;
     height: 40px;
     background: #4e75ff;
     margin-top: 8px;
@@ -34,14 +18,45 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    font-family: "Montserrat", sans-serif;
+    border: none;      
 
 }
 
 button:hover {
-    background: lawngreen;
+    background: rgb(18, 77, 215);
 }
 
-label {
+.btn {
+        text-decoration: none;
+        background-color: rgb(114, 30, 30);
+        padding: 10px 15px;
+        text-align: center;
+        color: #fff;
+        border-radius: 4px;
+        font-size: 16px;
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    .btn:hover {
+        background-color: rgb(135, 30, 30);
+    }
+
+/* .input {
+border: 1.2px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+}
+.textarea {
+    border: 1.2px solid #808080;
+        border-radius: 4px;
+        width: 360px;
+        height: 80px;
+} */
+
+ label {
     display: flex;
     flex-direction: column;
     font-weight: 400;
@@ -49,5 +64,5 @@ label {
     letter-spacing: 0.04em;
     color: #2e2f42;
     line-height: 150%;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.04em; 
 }
