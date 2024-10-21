@@ -20,6 +20,7 @@ function recoveryFormData() {
         feedBackForm.message.value = formData.message;
     }
 }
+recoveryFormData();
 
 feedBackForm.addEventListener('submit', handleSubmit);
 function handleSubmit (event) {
