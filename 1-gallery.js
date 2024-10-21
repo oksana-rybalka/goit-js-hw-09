@@ -6,5 +6,5 @@ src="${o}"
 alt="${a}"
 width='360'/>
 </a>
-</li>`),c=n.join("");e.insertAdjacentHTML("beforeend",c);new i(".gallery a",{captionsData:"alt",captionDelay:250,doubleTapZoom:2});
+</li>`),c=n.join("");e.insertAdjacentHTML("beforeend",c);new i(".gallery a",{captionsData:"alt",captionDelay:250});
 //# sourceMappingURL=1-gallery.js.map
