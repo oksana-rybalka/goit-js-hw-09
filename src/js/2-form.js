@@ -8,7 +8,7 @@ const localStorageKey = "feedback-form-state";
 feedBackForm.addEventListener('input', handleInput); 
 function handleInput (event) {
     formData[event.target.name] = event.target.value.trim();
-    localStorage.setItem(localStorage, JSON.stringify(formData));
+    localStorage.setItem(localStorageKey, JSON.stringify(formData));
 }
 
 function recoveryFormData() {
