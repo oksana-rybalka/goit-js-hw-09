@@ -19,11 +19,3 @@
 @import url('./1-gallery.css');
 @import url('./2-form.css');
 
-ul { 
-  padding: 0px;
-  }
-
-.li {
-  list-style: none;
-  padding-bottom: 30px;
-}
