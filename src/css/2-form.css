@@ -65,7 +65,7 @@ button:hover {
 
 .feedback-form input:focus,
 .feedback-form textarea:focus {
-        border: 1.5px solid #20316d;
+        outline: 1.5px solid #20316d;
     }
 
  label {
